@@ -81,3 +81,42 @@ console.log("lower: ", lower);
 let substringOfBase = baseString.substring(0,3);
 console.log("substringOfBase: ", substringOfBase);
 
+//Boolean: true sau false:
+let isAuthenticated = true;
+let isAuthorized = false;
+console.log("isAuthenticated", isAuthenticated);
+console.log("isAuthorized", isAuthorized);
+
+//Operatori de atribuire: +=; -=; *=; sau /=;       += se poate folosi si la stringuri;
+let x = 12  // declarare si atribuire
+console.log("x: ", x);
+x += 1;     // atribuire cu adunare
+console.log("x: ", x);
+x -= 2;     // atribuire cu scadere
+console.log("x: ", x);
+x *= 2;     // atribuire cu inmultire
+console.log("x: ", x);
+x /= 3;     // atribuirea cu impartire
+console.log("x: ", x);
+
+//Operatori de comparatie:
+//verificarea egalitatii:
+let nameA = "Ana";
+let nameB = "Ana";
+let nameC = "ana";
+console.log("nameA === nameB", nameA ===nameB);
+console.log("nameA === nameC", nameA ===nameC);
+
+let numberA = 12;
+let numberB = "12";
+let numberC = 13;
+console.log("numberA == numberB", numberA == numberB);
+console.log("numberA === numberB", numberA === numberB);
+console.log("numberA === numberC", numberA === numberC);
+
+//verificarea inegalitatii
+console.log("nameA !== nameB", nameA !==nameB);
+console.log("nameA !== nameC", nameA !==nameC);
+
+console.log("numberA !== numberB", numberA !== numberB);
+console.log("numberA !== numberC", numberA !== numberC);
